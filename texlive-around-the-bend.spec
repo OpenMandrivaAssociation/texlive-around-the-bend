@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /info/challenges/AroBend
+# catalog-date 2009-11-09 13:03:38 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-around-the-bend
 Version:	20091109
 Release:	1
@@ -23,6 +29,7 @@ didn't manage to get onto CTAN.
 %doc %{_texmfdistdir}/doc/generic/around-the-bend/AroundTheBend.pdf
 %doc %{_texmfdistdir}/doc/generic/around-the-bend/AroundTheBend.tex
 %doc %{_texmfdistdir}/doc/generic/around-the-bend/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -33,3 +40,5 @@ didn't manage to get onto CTAN.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
