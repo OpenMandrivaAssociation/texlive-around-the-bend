@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/around-the-bend.d
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 This is a typeset version of the files of the aro-bend, plus
@@ -29,7 +27,6 @@ didn't manage to get onto CTAN.
 %doc %{_texmfdistdir}/doc/generic/around-the-bend/AroundTheBend.pdf
 %doc %{_texmfdistdir}/doc/generic/around-the-bend/AroundTheBend.tex
 %doc %{_texmfdistdir}/doc/generic/around-the-bend/README
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -40,5 +37,3 @@ didn't manage to get onto CTAN.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
