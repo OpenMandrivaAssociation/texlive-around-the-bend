@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-around-the-bend
 Version:	20091109
-Release:	3
+Release:	4
 Summary:	Typeset exercises in TeX, with answers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/challenges/AroBend
