@@ -5,7 +5,7 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-around-the-bend
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Typeset exercises in TeX, with answers
 Group:		Publishing
