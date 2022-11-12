@@ -5,8 +5,8 @@ Summary:	Typeset exercises in TeX, with answers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/challenges/AroBend
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/around-the-bend.r15878.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/around-the-bend.doc.r15878.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/around-the-bend.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/around-the-bend.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
