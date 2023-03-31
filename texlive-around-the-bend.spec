@@ -1,6 +1,6 @@
 Name:		texlive-around-the-bend
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Typeset exercises in TeX, with answers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/challenges/AroBend
