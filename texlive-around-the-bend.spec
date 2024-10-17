@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Typeset exercises in TeX, with answers
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/challenges/AroBend
+URL:		https://www.ctan.org/tex-archive/info/challenges/AroBend
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/around-the-bend.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/around-the-bend.doc.r%{version}.tar.xz
